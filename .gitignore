@@ -1,0 +1,36 @@
+# Ignore model files (very large, not suitable for Git)
+models/
+
+# Ignore Gradio's temporary folder
+.gradio/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment folders
+env/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Python environment files
+*.env
+.env.*
+
+# Log and temporary files
+*.log
+*.tmp
